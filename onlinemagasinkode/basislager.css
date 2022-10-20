@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    background: url("/img/pantry.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-color: #d7dcbd;
+    max-width: 114rem;
+    height: 30rem;
+}
+
+
+body .btn {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #999e70;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Montserrat;
+    text-align: center;
+
+}
+
+.btn:hover {
+color: #292728;
+transition: all 0.3s ease 0s;
+}
+
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
+header {
+    background-color: #999e70;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 1%;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 15%);
+    height: 85px
+    
+}
+
+
+.logo {
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: 20px;
+    width: 220px;
+}
+
+
+.nav_links ul{
+    list-style: none;
+    background-color: #999e70;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.nav_links ul li {
+    display: inline-block;
+    padding: 0px 20px;
+    position: relative;
+    float: left;
+    list-style: none;
+}
+
+.nav_links ul li a{
+    transition: all 0.3s ease 0s;
+    display: block;
+    padding: 22px 14px;
+}
+
+
+.nav_links ul li a:hover {
+    color: #292728
+}
+
+.nav_links ul li ul{
+    display: none;
+    position: absolute;
+    background-color: #999e70;
+    padding: 10px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.nav_links ul li:hover ul{
+    display: block;
+}
+
+.nav_links ul li ul li{
+    width: 180px;
+    border-radius: 4px;
+ }
+.nav_links ul li ul li a:hover{
+   padding: 8px 30px;
+}
+
+
+
+/*****************    artikle basis lager  ************/
+
+main{
+    width: 100%;
+    max-width: 80rem;
+    background-color: #666b43;
+    margin: 0 auto;
+    padding: 4rem;
+    border-radius: 1.5rem;
+    position: relative;
+    margin-top: 500px;
+}
+
+
+main h2{
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: Montserrat;
+    color: #ebefd3;
+}
+
+
+.text{
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #ebefd3;
+}
+
+
+
+ul li{
+
+    font-family: Montserrat;
+    font-size: 20px;
+    color: #ebefd3;
+    margin-left: 20px;
+    line-height: 2;
+}
+
+
+
+.img {
+    width: 45%;
+    position: absolute;
+    right: 100px;
+    bottom: 20px;
+}
+
+
+img {
+    width: 100%;
+    
+}
+
